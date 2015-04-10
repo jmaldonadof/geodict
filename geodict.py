@@ -67,7 +67,7 @@ text = input_handle.read()
 
 #cProfile.run('locations = geodict_lib.find_locations_in_text(text)')
 
-locations = geodict_lib.find_locations_in_text(text)
+locations = geodict_lib.find_chilean_locations_in_text(text)
 
 output_string = ''
 if format.lower() == 'json':
