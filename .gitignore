@@ -1,1 +1,4 @@
 *.pyc
+.project
+geodict_config.py
+*~
